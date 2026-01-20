@@ -112,7 +112,8 @@
   "background": {
     "blur": 0.1,
     "alpha": 0.6,
-    "url": "blob:https://fyimg.com/77c85bee-8b2c-4047-bf8b-6b9404622cd8" },
+    "url": "https://raw.githubusercontent.com/Aoixyz/Discord2/refs/heads/main/shiroko_terror_lite.png"
+  },
   "overlay": {
     "url": "https://cdn.discordapp.com/attachments/1336245381981405229/1400744752625876992/shiroko_terror_lite.png",
     "blur": 5,
