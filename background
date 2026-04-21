@@ -1,10 +1,10 @@
 {
   "name": "Shiroko_Terror_BlueGray",
-  "description": "from Blue Archive (Blue-Gray Frosted ver.)",
-  "version": "2.0.0",
+  "description": "from Blue archive",
+  "version": "2.1.0",
   "authors": [
     {
-      "name": "Aoi",
+      "name": "Aoi)",
       "id": "605791172530536449"
     }
   ],
@@ -13,112 +13,71 @@
     "HEADER_SECONDARY": ["#c8c8c8"],
     "TEXT_NORMAL": ["#FBFBFB"],
     "TEXT_MUTED": ["#a8b2b7"],
-    "INTERACTIVE_NORMAL": ["#58737E"],
-    "INTERACTIVE_HOVER": ["#5f8490"],
+    "TEXT_LINK": ["#7aa0ac"],
+    "INTERACTIVE_NORMAL": ["#94b0bb"],
+    "INTERACTIVE_HOVER": ["#ffffff"],
     "INTERACTIVE_ACTIVE": ["#ffffff"],
-    "INTERACTIVE_MUTED": ["#6d8c94"],
+    "INTERACTIVE_MUTED": ["#58737E"],
+    
+    /* bg */
     "BACKGROUND_PRIMARY": ["#0f1a1d"],
-    "CARD_PRIMARY_BG": ["#0f1a1d"],
-    "BG_BASE_PRIMARY": ["#0f1a1d"],
     "BACKGROUND_SECONDARY": ["#162327"],
-    "CARD_SECONDARY_BG": ["#162327"],
-    "BG_BASE_SECONDARY": ["#162327"],
     "BACKGROUND_SECONDARY_ALT": ["#1c2c30"],
-    "BACKGROUND_TERTIARY": ["#21383f"],
-    "BG_BASE_TERTIARY": ["#21383f"],
+    "BACKGROUND_TERTIARY": ["#0d1416"],
     "BACKGROUND_ACCENT": ["#263f46"],
-    "BACKGROUND_MOBILE_PRIMARY": ["#0f1a1d"],
-    "BACKGROUND_MOBILE_SECONDARY": ["#162327"],
-    "BACKGROUND_MESSAGE_HOVER": ["rgba(255, 255, 255, 0.03)"],
-    "BACKGROUND_MODIFIER_HOVER": ["rgba(255, 255, 255, 0.04)"],
-    "BACKGROUND_MODIFIER_ACTIVE": ["rgba(255, 255, 255, 0.05)"],
-    "BACKGROUND_MODIFIER_SELECTED": ["rgba(255, 255, 255, 0.06)"],
-    "BACKGROUND_MODIFIER_ACCENT": ["#21383f"],
-    "BACKGROUND_MENTIONED": ["rgba(88, 115, 126, 0.15)"],
-    "BACKGROUND_MENTIONED_HOVER": ["#58737E"],
+    "BACKGROUND_FLOATING": ["#21383f"],
+    "BG_BASE_PRIMARY": ["#0f1a1d"],
+    "BG_BASE_SECONDARY": ["#162327"],
+    "BG_BASE_TERTIARY": ["#21383f"],
+    
+    /* chatarea */
+    "CHAT_BACKGROUND": ["#0f1a1d"],
     "CHANNELTEXTAREA_BACKGROUND": ["#111b1f"],
+    "BACKGROUND_MESSAGE_HOVER": ["rgba(255, 255, 255, 0.05)"],
+    "BACKGROUND_MENTIONED": ["rgba(88, 115, 126, 0.15)"],
+    "BACKGROUND_MENTIONED_HOVER": ["rgba(88, 115, 126, 0.25)"],
+    "BACKGROUND_MODIFIER_HOVER": ["rgba(255, 255, 255, 0.04)"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["rgba(255, 255, 255, 0.07)"],
+    "BACKGROUND_MODIFIER_SELECTED": ["rgba(255, 255, 255, 0.1)"],
+    
+    /* ui */
+    "REDESIGN_CHAT_INPUT_BACKGROUND": ["#162327"],
     "REDESIGN_ACTIVITY_CARD_BACKGROUND": ["#162327"],
     "REDESIGN_BUTTON_SECONDARY_BACKGROUND": ["#21383f"],
-    "REDESIGN_CHAT_INPUT_BACKGROUND": ["#162327"],
-    "REDESIGN_BUTTON_TERTIARY_BACKGROUND": ["#263f46"],
-    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#58737E"],
-    "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": ["#f1f1f1"],
+    "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": ["#7aa0ac"],
     "REDESIGN_CHANNEL_NAME_TEXT": ["#FBFBFB"],
-    "CHANNELS_DEFAULT": ["#c8c8c8"],
-    "CHANNEL_ICON": ["#58737E"],
-    "TEXT_PRIMARY": ["#FBFBFB"],
-    "TEXT_LINK": ["#7aa0ac"],
-    "THREAD_CHANNEL_SPINE": ["#58737E"]
+    
+    /* border */
+    "BORDER_SUBTLE": ["rgba(255, 255, 255, 0.1)"],
+    "BORDER_STRONG": ["rgba(255, 255, 255, 0.2)"],
+    "SCROLLBAR_THIN_THUMB": ["#58737E"],
+    "SCROLLBAR_AUTO_THUMB": ["#58737E"]
   },
   "rawColors": {
     "PRIMARY_100": "#f1f1f1",
-    "PRIMARY_200": "#c8c8c8",
-    "PRIMARY_300": "#FBFBFB",
-    "PRIMARY_400": "#a8b2b7",
-    "PRIMARY_500": "#58737E",
-    "PRIMARY_600": "#7aa0ac",
+    "PRIMARY_600": "#162327",
     "PRIMARY_700": "#0f1a1d",
-    "PRIMARY_800": "#263f46",
-    "PLUM_10": "#b2b2b2",
-    "PLUM_11": "#162327",
-    "PLUM_15": "#21383f",
-    "PLUM_16": "#7aa0ac",
-    "PLUM_17": "#263f46",
-    "PLUM_20": "#0f1a1d",
-    "PLUM_3": "#FBFBFB",
-    "PLUM_4": "#f1f1f1",
-    "PLUM_6": "#a8b2b7",
-    "BRAND_230": "#58737E",
+    "PRIMARY_800": "#0d1416",
     "BRAND_260": "#7aa0ac",
-    "BRAND_360": "#FBFBFB",
-    "BRAND_500": "#7aa0ac",
-    "BRAND_560": "#f1f1f1",
-    "RED_260": "#ac5f5f",
-    "ROLE_DEFAULT": "#a8b2b7",
-    "YELLOW_260": "#e5c890",
-    "GREEN_260": "#a6d189",
-    "GUILD_BOOSTING_PINK": "#7aa0ac",
-    "GUILD_BOOSTING_PURPLE": "#58737E",
-    "BLUE_345": "#7aa0ac",
-    "BLUE_330": "#58737E",
+    "BRAND_500": "#58737E", /* its main */
+    "BRAND_560": "#21383f",
     "WHITE_500": "#f1f1f1",
-    "WHITE_630": "#a8b2b7"
+    "BLACK_500": "rgba(0, 0, 0, 0.7)"
   },
   "plus": {
     "version": "1.0",
-    "customOverlays": true,
-    "brightnessControl": {
-      "enabled": true,
-      "min": 0.2,
-      "max": 1.0,
-      "default": 0.6
-    },
+    "iconpack": "rosiecord-plumpy",
     "icons": {
-      "ic_radio_circle_checked": "#58737E",
-      "ic_radio_circle_checked__overlay": "#FFFFFF",
-      "ic_radio_square_24px": "#58737E",
-      "ic_radio_square_checked_24px": "#58737E",
-      "ic_radio_square_checked_24px__overlay": "#FFFFFF",
-      "ic_selection_checked_24px": "#58737E",
-      "ic_selection_checked_24px__overlay": "#FFFFFF",
-      "StatusMobileOnline": "#4BA3C3",
+      "StatusOnline": "#4BA3C3",
       "StatusIdle": "#faeb64",
       "StatusDND": "#e33054",
-      "StatusOffline": "#585666",
-      "StatusOnline": "#4BA3C3",
-      "StatusStreaming": "#3A7A8A"
+      "StatusOffline": "#585666"
     }
   },
   "background": {
-    "blur": 0.1,
-    "alpha": 0.6,
+    "blur": 0.2,
+    "alpha": 0.75, 
     "url": "https://raw.githubusercontent.com/Aoixyz/Discord2/refs/heads/main/shiroko_terror_lite.png"
-  },
-  "overlay": {
-    "url": "https://cdn.discordapp.com/attachments/1336245381981405229/1400744752625876992/shiroko_terror_lite.png",
-    "blur": 5,
-    "size": "cover",
-    "position": "center"
   },
   "spec": 2
 }
