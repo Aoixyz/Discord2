@@ -18,8 +18,6 @@
     "INTERACTIVE_HOVER": ["#ffffff"],
     "INTERACTIVE_ACTIVE": ["#ffffff"],
     "INTERACTIVE_MUTED": ["#58737E"],
-    
-    /* bg */
     "BACKGROUND_PRIMARY": ["#0f1a1d"],
     "BACKGROUND_SECONDARY": ["#162327"],
     "BACKGROUND_SECONDARY_ALT": ["#1c2c30"],
@@ -29,8 +27,6 @@
     "BG_BASE_PRIMARY": ["#0f1a1d"],
     "BG_BASE_SECONDARY": ["#162327"],
     "BG_BASE_TERTIARY": ["#21383f"],
-    
-    /* chatarea */
     "CHAT_BACKGROUND": ["#0f1a1d"],
     "CHANNELTEXTAREA_BACKGROUND": ["#111b1f"],
     "BACKGROUND_MESSAGE_HOVER": ["rgba(255, 255, 255, 0.05)"],
@@ -39,15 +35,11 @@
     "BACKGROUND_MODIFIER_HOVER": ["rgba(255, 255, 255, 0.04)"],
     "BACKGROUND_MODIFIER_ACTIVE": ["rgba(255, 255, 255, 0.07)"],
     "BACKGROUND_MODIFIER_SELECTED": ["rgba(255, 255, 255, 0.1)"],
-    
-    /* ui */
     "REDESIGN_CHAT_INPUT_BACKGROUND": ["#162327"],
     "REDESIGN_ACTIVITY_CARD_BACKGROUND": ["#162327"],
     "REDESIGN_BUTTON_SECONDARY_BACKGROUND": ["#21383f"],
     "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": ["#7aa0ac"],
     "REDESIGN_CHANNEL_NAME_TEXT": ["#FBFBFB"],
-    
-    /* border */
     "BORDER_SUBTLE": ["rgba(255, 255, 255, 0.1)"],
     "BORDER_STRONG": ["rgba(255, 255, 255, 0.2)"],
     "SCROLLBAR_THIN_THUMB": ["#58737E"],
