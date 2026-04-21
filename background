@@ -51,7 +51,7 @@
     "PRIMARY_700": "#0f1a1d",
     "PRIMARY_800": "#0d1416",
     "BRAND_260": "#7aa0ac",
-    "BRAND_500": "#58737E", /* its main */
+    "BRAND_500": "#58737E",
     "BRAND_560": "#21383f",
     "WHITE_500": "#f1f1f1",
     "BLACK_500": "rgba(0, 0, 0, 0.7)"
